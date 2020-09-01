@@ -1,0 +1,30 @@
+//using bootstrap as the default framework of css
+@import "vendors/bootstrap";
+
+//abstracts folder
+@import "abstract/mixins";
+@import "abstract/variable";
+
+//base folder
+@import "base/reset";
+@import "base/typography";
+
+//components folder
+@import "components/button";
+@import "components/carousel";
+@import "components/dropdown";
+
+//layout folder
+@import "layout/footer";
+@import "layout/form";
+@import "layout/grid";
+@import "layout/header";
+@import "layout/navigation";
+@import "layout/sidebar";
+
+//pages style
+@import "pages/home";
+@import "pages/contact";
+
+
+
